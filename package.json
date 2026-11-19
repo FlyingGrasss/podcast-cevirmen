@@ -1,0 +1,23 @@
+{
+  "name": "podcast-cevirmen",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Translate English podcast transcripts to Turkish while preserving subtitle timings.",
+  "type": "module",
+  "engines": {
+    "node": ">=26"
+  },
+  "bin": {
+    "podcast-cevirmen": "./dist/cli.js"
+  },
+  "scripts": {
+    "translate": "node src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/formats.test.ts test/cues.test.ts test/translation.test.ts test/openai.test.ts",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}

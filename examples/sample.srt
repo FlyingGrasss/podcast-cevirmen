@@ -1,0 +1,15 @@
+1
+00:00:00,000 --> 00:00:04,200
+Welcome back to the podcast. Today we are talking about machine learning.
+
+2
+00:00:04,200 --> 00:00:09,800
+Our guest has spent ten years building products with AI.
+
+3
+00:00:09,800 --> 00:00:15,400
+Let's start with the basics. What actually is a large language model?
+
+4
+00:00:15,400 --> 00:00:21,000
+And why does it sometimes sound so confident while being wrong?
